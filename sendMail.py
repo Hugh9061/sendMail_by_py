@@ -5,12 +5,12 @@ from email.mime.text import MIMEText
 from email.header import Header
 
 # 发信方的信息：发信邮箱，QQ邮箱授权码
-from_addr = '404885236@qq.com'
+from_addr = '发件方的邮箱地址'
 # QQ授权码
-password = 'woxqkmxbadwnbhaa'
+password = '这里填写自己的授权码，不懂的请百度'
 
 # 收信方邮箱
-to_addr = '2088983037@qq.com'
+to_addr = '收件方邮箱地址'
 
 # 发信服务器
 smtp_sever = 'smtp.qq.com'
